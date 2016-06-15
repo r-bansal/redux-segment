@@ -4,7 +4,7 @@
   "description": "Segment.io analytics integration for redux.",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "make build",
+    "prepublish": "make build && npm run build",
     "test": "make test",
     "prebuild": "rimraf dist",
     "build": "babel --out-dir dist src"
